@@ -59,4 +59,3 @@ ifneq (,$(filter sdm845 sdm710, $(TARGET_BOARD_PLATFORM)))
 endif
 
 -include device/ancient/sepolicy/qcom/sepolicy.mk
--include device/ancient/sepolicy/wifi-ext/sepolicy.mk
